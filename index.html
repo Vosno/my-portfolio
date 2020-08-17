@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Title -->
+    <title>Viktor Linder Portfolio</title>
+</head>
+<body>
+    <header>
+        <!-- Navbar container-->
+        <div class="container-fluid my-container-navbar">
+            <div class="row my-row-navbar">
+            <!--Navbar-->
+                <div class="col my-col-navbar">
+                    <nav class="navbar navbar-expand-md">
+                        <!-- Navbar brand -->
+                        <a class="navbar-brand" href="index.html"><img src="images/VLLogoDarkBlue.png" alt=""></a>
+                        <!-- Collapse button -->
+                        <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarCollapsed"
+                            aria-controls="navbarCollapsed" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="animated-icon1">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </button>
+                        <!-- Collapsible content -->
+                        <div class="collapse navbar-collapse" id="navbarCollapsed">
+                            <!-- Links -->
+                            <ul class="navbar-nav text-right ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link current-page" href="index.html">Hem</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="project.html">Projekt</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">Om mig</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Kontakta mig</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Hero intro -->
+    <div class="container p-0">
+        <!-- Discipline & Name -->
+        <div class="container">
+            <div>
+                <div class="row slideInLeft">
+                    <div class="col-6 col-lg-7 p-0">
+                        <img class="img-fluid" src="images/DigitalTextAnv.png" alt="">
+                    </div>
+                </div>
+                <div class="row slideInLeft2">
+                    <div class="col-8 col-lg-9 p-0">
+                        <img class="img-fluid" src="images/DesignerTextAnv.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="slideInRight">
+                <div class="row justify-content-end">
+                    <div class="col-5 offset-2 p-0">
+                        <img class="img-fluid" src="images/ViktorLinderAnv.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Image of me -->
+        <div class="slideInRight2">
+            <div class="row my-row-imageme justify-content-end">
+                <div class="col-10 col-lg-8">
+                    <img src="https://via.placeholder.com/1000x700" class="img-fluid my-image-me shadow" alt="Responsive image">  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Short about me -->
+    <article class="container my-container-abouthome">
+        <div class="slideInBottom">
+            <div class="row my-row-abouthome mt-4">
+                <div class="col pl-0 mb-5">
+                    <h3 class="mb-4">Om mig</h3>
+                    <p>Digital Design student, bosatt i Linköping. Har intresse för det mesta inom design, men främst front-end webbdesign.</p>
+                    <a class="my-btn-back" href="about.html" rel="nofollow noopener">Läs mer</a>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-5 col-md-4 col-lg-3 my-services-home pl-0">
+                    <h4>Design</h4>
+                    <p>Webbdesign</p>
+                    <p>Interaktionsdesign</p>
+                    <p>Prototyputveckling</p>
+                    <p>Visuell design</p>
+                    <p>Identitet</p>
+                </div>
+                <div class="col-5 col-md-4 pl-0 pl-md-2 mt-2 mt-md-0">
+                    <h4>Webbutveckling</h4>
+                    <p>HTML, CSS, Bootstrap, JS</p>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col pl-0">
+                    <a class="my-btn my-btn-homecontact" href="contact.html" rel="nofollow noopener">Kontakta mig</a>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Overview of projects -->
+    <article class="container my-container-project">
+        <div class="row">
+            <div class="col my-col-projectheader p-0 mb-4">
+                <h3>Projekt</h3>                    
+            </div>
+        </div>
+        <div>
+            <section class="row my-row-project">
+                <div class="col-12 col-lg-7 my-col-projectimg pl-0 pr-0">
+                    <img src="/Images/hifimobanddesk.jpg" class="img-fluid shadow" alt="Responsive image">
+                </div>
+                <div class="col-12 col-lg-4 offset-lg-1 mt-4 mt-lg-0 my-col-project align-self-center">
+                    <h4>Design av Portfolio</h4>
+                    <p>Övergripande designprocess av mitt portfolio och identitet.</p>
+                    <div>
+                        <a class="my-btn" href="projectportfolio.html" rel="nofollow noopener">Läs mer</a>
+                    </div>
+                </div> 
+            </section>
+        </div>
+        <div>
+            <section class="row my-row-project justify-content-between">
+                <div class="col-12 col-lg-7 order-lg-2 my-col-projectimg pl-0 pr-0">
+                    <img src="/Images/GLintroimg.jpg" class="img-fluid shadow" alt="Responsive image">
+                </div>
+                <div class="col-12 col-lg-4 my-col-project mt-4 mt-lg-0 align-self-center order-lg-1">
+                    <h4>Grafisk Webbdesign</h4>
+                    <p>Desgin av startsida och köpflöde för G-LÖV.</p>
+                    <div>
+                        <a class="my-btn" href="projectwebbdesign.html" rel="nofollow noopener">Läs mer</a>
+                    </div>
+                </div> 
+            </section>
+        </div>
+        <div>
+            <section class="row my-row-project">
+                <div class="col-12 col-lg-7 my-col-projectimg pl-0 pr-0">
+                    <img src="/Images/GLGPLogoSmall.jpg" class="img-fluid shadow" alt="Responsive image">
+                </div>
+                <div class="col-12 col-lg-4 offset-lg-1 my-col-project mt-4 mt-lg-0 align-self-center">
+                    <h4>Grafisk Profil</h4>
+                    <p>Identitet för ett högkvalitativt snusföretag, G-LÖV.</p>
+                    <div>
+                        <a class="my-btn" href="projectgprofile.html" rel="nofollow noopener">Läs mer</a>
+                    </div>
+                </div> 
+            </section>
+        </div>
+        <div>
+            <section class="row my-row-project justify-content-between">
+                <div class="col-12 col-lg-7 order-lg-2 my-col-projectimg pl-0 pr-0">
+                    <img src="/Images/WebinLanding.jpg" class="img-fluid shadow" alt="Responsive image">
+                </div>
+                <div class="col-12 col-lg-4 my-col-project mt-4 mt-lg-0 align-self-center order-lg-1">
+                    <h4>Webbprojekt: webin.</h4>
+                    <p>Responsiv hemsida för hämtning av gamla vitvaror.</p>
+                    <div>
+                        <a class="my-btn" href="projectwebin.html" rel="nofollow noopener">Läs mer</a>
+                    </div>
+                </div> 
+            </section>
+        </div>
+    </article>
+    <footer>
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- My JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
