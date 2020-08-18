@@ -386,226 +386,26 @@ Hamburger Icon Animation
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
   }
-.slideInLeft {
-    animation-name: slideInLeft;
-    -webkit-animation-name: slideInLeft;
-    animation-duration: 1.5s;
-    -webkit-animation-duration: 1.5s;
-    visibility: visible;
-  }
-@keyframes slideInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-20%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0%);
-  }
+/* =============================================== 
+Fade In / Out between pages
+=============================================== */
+.animate-in {
+  -webkit-animation: fadeIn .5s ease-in;
+  animation: fadeIn .5s ease-in;
 }
 
-@-webkit-keyframes slideInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-20%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0%);
-  }
-}
-.slideInLeft2 {
-  animation-name: slideInLeft2;
-  -webkit-animation-name: slideInLeft2;
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  visibility: visible;
-}
-@keyframes slideInLeft2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-40%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0%);
-  }
-}
-@-webkit-keyframes slideInLeft2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-40%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0%);
-  }
-}
-.slideInRight {
-  animation-name: slideInRight;
-  -webkit-animation-name: slideInRight;
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  visibility: visible;
-}
-@keyframes slideInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(20%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
+.animate-out {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  opacity: 0;
 }
 
-@-webkit-keyframes slideInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(20%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-}
-.slideInRight2 {
-  animation-name: slideInRight2;
-  -webkit-animation-name: slideInRight2;
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  visibility: visible;
-}
-@keyframes slideInRight2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(40%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-@-webkit-keyframes slideInRight2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(40%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-}
-.slideInBottom {
-  animation-name: slideInBottom;
-  -webkit-animation-name: slideInBottom;
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  visibility: visible;
-}
-@keyframes slideInBottom {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(20%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-}
-
-@-webkit-keyframes slideInBottom {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(20%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-}
-.slideInBottom2 {
-  animation-name: slideInBottom2;
-  -webkit-animation-name: slideInBottom2;
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  visibility: visible;
-}
-@keyframes slideInBottom2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(5%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-}
-
-@-webkit-keyframes slideInBottom2 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(5%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-}
-.slideInBottom3 {
-  animation-name: slideInBottom3;
-  -webkit-animation-name: slideInBottom3;
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  visibility: visible;
-}
-@keyframes slideInBottom3 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(40%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-}
-
-@-webkit-keyframes slideInBottom3 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(40%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-}
-.slideInBottom4 {
-  animation-name: slideInBottom4;
-  -webkit-animation-name: slideInBottom4;
-  animation-duration: 1.5s;
-  -webkit-animation-duration: 1.5s;
-  visibility: visible;
-}
-@keyframes slideInBottom4 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(60%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
-}
-
-@-webkit-keyframes slideInBottom4 {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(60%);
-  } 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

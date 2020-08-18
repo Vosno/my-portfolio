@@ -1,3 +1,7 @@
+window.addEventListener("beforeunload", function () {
+  document.body.classList.add("animate-out");
+});
+
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
