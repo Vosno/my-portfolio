@@ -9,11 +9,15 @@ body {
     background-color: #F2F2F2;
     overflow-x: hidden;
 }
-h3, h4, h5 {
+h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
-h3 {
+h1 {
+  font-size: 100px;
+}
+
+h2 {
     font-size: 40px;
 }
 h4 {
@@ -63,13 +67,20 @@ Navbar Style
     color: #42b883 !important;
 }
 /* ===============================================
-AboutMeHome Style
+Index intro Style
 =============================================== */
+.my-container-hero {
+  margin-top: 200px;
+}
 .my-container-abouthome {
     margin-bottom: 200px;
+    margin-top: 200px;
 }
 .my-row-abouthome p {
     max-width: 400px;
+}
+.my-designer-text {
+  margin-top: -40px;
 }
 /* ===============================================
 AboutMePage Style
@@ -237,6 +248,15 @@ Small Screens
     font-size: 30px;
     color: #F2F2F2;
   }
+  .my-container-hero {
+    margin-top: 100px;
+  }
+  .my-container-abouthome {
+      margin-top: 100px;
+  }
+  .my-designer-text {
+    margin-top: -40px;
+  }
 }
 /* ===============================================
 Medium screens
@@ -274,6 +294,10 @@ Medium screens
     width: 100%; 
     left: 0; 
   }
+h1 {
+  font-size: 150px;
+} 
+
 }
 /* ===============================================
 Large screens
@@ -288,15 +312,22 @@ Large screens
 .my-col-aboutmetext {
     margin-top: 0px;
   }
-h3 {
+h2 {
     font-size: 50px;
   }
-h4 {
+h3 {
     font-size: 27px;
   }
 .btn {
     width: 150px;
   }
+h1 {
+  font-size: 200px;
+}
+
+.my-designer-text {
+  float: right;
+}
 }
 /* ===============================================
 XL Screens
