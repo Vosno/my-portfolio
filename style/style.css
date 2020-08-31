@@ -257,6 +257,9 @@ Small Screens
   .my-designer-text {
     margin-top: -30px;
   }
+  h3 {
+    font-size: 18px;
+  }
 }
 /* ===============================================
 Medium screens
